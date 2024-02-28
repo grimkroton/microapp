@@ -18,7 +18,6 @@
 			<h1>Willkommen auf der ersten Azure Webanwendung!</h1>
       <h2>Dieser Container wurde aus dem Code von diesem <a href="https://github.com/grimkroton/microapp">Repo</a> automatisiert ausgerollt</h2>
       <?php
-        phpinfo();
         echo getHostByName(getHostName());
       ?>
 		</section>
