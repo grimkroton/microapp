@@ -63,4 +63,4 @@ jobs:
           app-name: 'lhmdemo'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_70A75F5D9FA4480EADA63EFC02295103 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8307F8797D6C4D92BE7490B60AF36AC6 }}
