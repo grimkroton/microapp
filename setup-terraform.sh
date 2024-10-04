@@ -11,7 +11,8 @@ if ! echo $PATH | grep -q "/usr/local/bin"; then
 else 
     echo "$PATH bereits angepasst" 
 fi
-echo -n "Installiere Azure-CLI" curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+echo -n "Installiere Azure-CLI" 
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 az --version
 curl -L -o terraform.sample.zip https://releases.hashicorp.com/terraform/1.9.6/terraform_1.9.6_linux_amd64.zip
 unzip terraform.sample.zip
