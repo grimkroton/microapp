@@ -19,6 +19,7 @@
       <h2>Diese Webanwendung wurde aus dem Code von diesem <a href="https://github.com/grimkroton/microapp">Repo</a> automatisiert ausgerollt</h2>
       <?php
         echo getHostByName(getHostName());
+	echo phpinfo();
       ?>
 		</section>
 	</main>
