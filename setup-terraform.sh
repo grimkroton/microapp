@@ -18,4 +18,5 @@ unzip terraform.sample.zip
 rm LICENSE.txt
 mv terraform /usr/local/bin/terraform
 chmod +x /usr/local/bin/terraform
+rm -f terraform.sample.zip
 /usr/local/bin/terraform --version
