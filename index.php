@@ -15,12 +15,12 @@
 	</header>
 	<main>
 		<section>
-			<h1>Willkommen auf der ersten Azure Webanwendung!</h1>
-      <h2>Diese Webanwendung wurde aus dem Code von diesem <a href="https://github.com/grimkroton/microapp">Repo</a> automatisiert ausgerollt</h2>
-      <?php
-        echo getHostByName(getHostName());
-	echo phpinfo();
-      ?>
+			<h1>Willkommen auf der ersten Azure Webanwendung - Trophy!</h1>
+      			<h2>Diese Webanwendung wurde aus dem Code von diesem <a href="https://github.com/grimkroton/microapp">Repo</a> automatisiert ausgerollt</h2>
+		      <?php
+		        echo getHostByName(getHostName());
+			echo phpinfo();
+		      ?>
 		</section>
 	</main>
 	<footer>
