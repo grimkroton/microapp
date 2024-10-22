@@ -17,6 +17,7 @@
 		<section>
 			<h1>Willkommen auf der ersten Azure Webanwendung - Trophy!</h1>
       			<h2>Diese Webanwendung wurde aus dem Code von diesem <a href="https://github.com/grimkroton/microapp">Repo</a> automatisiert ausgerollt</h2>
+			<iframe src="https://trophy.muenchen.de" title="Trophy"></iframe>
 		      <?php
 		        echo getHostByName(getHostName());
 			echo phpinfo();
