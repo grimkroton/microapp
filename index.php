@@ -15,9 +15,14 @@
 	</header>
 	<main>
 		<section>
-			<h1>Willkommen auf der ersten Azure Webanwendung - Trophy!</h1>
+			<h1>Willkommen auf der ersten Azure Webanwendung</h1>
       			<h2>Diese Webanwendung wurde aus dem Code von diesem <a href="https://github.com/grimkroton/microapp">Repo</a> automatisiert ausgerollt</h2>
 		      <?php
+			$message = getenv('MESSAGE');
+			if ($message == false) {
+				$message = '';	
+			}
+			echo "<h3>$message</h3>";
 		        echo getHostByName(getHostName());
 			echo phpinfo();
 		      ?>
